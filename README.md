@@ -3,8 +3,8 @@
 This project draws a **CIE 1931 xy Chromaticity Diagram** using a Python script with the following:
 
 - **1 nm edge sampling** (interpolated from 5 nm color matching functions)
-- **Physically accurate color fill**  
-  Conversion pipeline: `xyY → XYZ → sRGB (D65)` followed by global dimming for display
+- **Spectral color renderingl**  
+  Conversion pipeline: `xyY → XYZ → sRGB (D65)`
 - **Visual elements included**:  
   - sRGB and Adobe RGB gamut triangles  
   - D65 white point marker  
