@@ -31,7 +31,7 @@ FIG_HEIGHT = OUTPUT_HEIGHT / OUTPUT_DPI
 IMG_W, IMG_H = OUTPUT_WIDTH, OUTPUT_HEIGHT  # internal image resolution matches output
 GAIN = 0.95                    # dim the interior fill (0.7 darker ... 1.0 original)
 LABEL_STEP = 20                # wavelength label step in nm
-SAVE_AS = "D:\\blog\\projekte\\adobe_rgb\\CIE1931_xy.png"
+SAVE_AS = "CIE1931_xy.png"
 
 # Plot extent
 XMIN, XMAX = 0.0, 0.8
@@ -287,4 +287,5 @@ ax.set_yticks(np.arange(0, 0.91, 0.1))
 
 plt.tight_layout()
 plt.savefig(SAVE_AS, dpi=OUTPUT_DPI)
+
 print
