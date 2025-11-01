@@ -1,8 +1,14 @@
-Draws a CIE 1931 xy Chromaticity Diagram
+### CIE 1931 xy Chromaticity Diagram
 
-- 1 nm edge sampling (interpolated from 5 nm CMFs)
-- physically correct color fill (xyY -> XYZ -> sRGB D65), then global dimming
-- sRGB and Adobe RGB triangles, D65 marker, wavelength labels
+This project draws a **CIE 1931 xy Chromaticity Diagram** using a Python script with the following:
+
+- **1 nm edge sampling** (interpolated from 5 nm color matching functions)
+- **Physically accurate color fill**  
+  Conversion pipeline: `xyY → XYZ → sRGB (D65)` followed by global dimming for display
+- **Visual elements included**:  
+  - sRGB and Adobe RGB gamut triangles  
+  - D65 white point marker  
+
 
 <img width="2000" height="2000" alt="CIE1931_xy" src="https://github.com/user-attachments/assets/ff00d349-c196-47e1-a3e3-75c274555647" />
 
