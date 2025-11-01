@@ -4,7 +4,7 @@ This project draws a **CIE 1931 xy Chromaticity Diagram** using a Python script 
 
 - **1 nm edge sampling** (interpolated from 5 nm color matching functions)
 - **Spectral color renderingl**  
-  Conversion pipeline: `xyY → XYZ → sRGB (D65)`
+  Conversion pipeline: `xyY → XYZ`
 - **Visual elements included**:  
   - sRGB and Adobe RGB gamut triangles  
   - D65 white point marker  
