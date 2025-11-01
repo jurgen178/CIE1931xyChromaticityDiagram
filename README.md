@@ -1,4 +1,4 @@
-Draws a CIE 1931 xy Chromaticity Diagram with smooth spectral locus and dimmed interior
+Draws a CIE 1931 xy Chromaticity Diagram
 
 - 1 nm edge sampling (interpolated from 5 nm CMFs)
 - physically correct color fill (xyY -> XYZ -> sRGB D65), then global dimming
